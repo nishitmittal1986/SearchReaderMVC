@@ -54,7 +54,7 @@ namespace SearchReaderMVC.Controllers
             }
             else
             {
-                SearchVal.SearchResult = "No Results were found for " + myUrl + ".";
+                SearchVal.SearchResult = "No Results were found for " + myUrl + " in Bing Search.";
             }
 
             return View(SearchVal);
