@@ -9,8 +9,8 @@ namespace SearchReaderMVC.Models
 {
     public class SearchVal
     {
-        public string URL { get; set; }
-        public string SearchResult { get; set; }
+        public string BingSearchResult { get; set; }
+        public string GoogleSearchResult { get; set; }
                        
     }
 }

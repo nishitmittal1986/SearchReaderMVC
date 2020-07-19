@@ -10,13 +10,18 @@
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
-            <div class="navbar-header">
+            <div class="navbar-header">                
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("Search Infotrack.com", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                <p class="site-title">
+                    <a href="@Url.Action("Result", "Search")">
+                        <img src="~/Images/Logo.png" alt="Search for Infotrack.com" />
+                    </a>
+                </p>
+                
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">                   

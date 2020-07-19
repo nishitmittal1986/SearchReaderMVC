@@ -16,7 +16,7 @@ namespace SearchReaderMVC
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Search", action = "SearchGoogle", id = UrlParameter.Optional }
+                defaults: new { controller = "Search", action = "Result", id = UrlParameter.Optional }
             );
         }
     }

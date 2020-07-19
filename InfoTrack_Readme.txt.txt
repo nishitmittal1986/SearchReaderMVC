@@ -1,6 +1,8 @@
-There are 2 seprate actions for the user to search the URL InfoTrack.com.au in Google and Bing respectively.
+This application will search for the URL InfoTrack.com.au in Google and Bing and provide count of the appearance.
 
-http://localhost:<port>/Search/SearchGoogle
-http://localhost:<port>/Search/SearchBing
+App URL-
+http://localhost:<port>/Search/Result
 
+
+*It doesn't use any API or third party libraries.*
 
